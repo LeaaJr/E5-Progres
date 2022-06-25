@@ -1,0 +1,146 @@
+body{
+    margin: 0%;
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/12/16/18/pizza-5163790_1280.jpg);
+    image-resolution: 1920px, 1080px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 2rem;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 10px
+}
+
+.navigation ul li a:hover{
+    color: rgb(172, 172, 20);
+}
+
+
+
+#card{
+    height: 300px;
+    width: 220px;
+    background: none;
+    display: flex;
+    margin-left: 1300px;
+    margin-top: 100px;
+    border-radius: 5px;
+    align-items: center;
+    
+}
+
+#select{
+    margin-left: 1345px;
+    margin-top: 60px;
+}
+
+.inst{
+    color: white;
+    font-size: 1rem;
+    margin-left: 1320px;
+    margin-top: -55px;
+}
+
+.nombreest{
+    width: 70px;
+}
+
+.comprar:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    width: 120px;
+    height: 140px;
+    position: fixed;
+    margin-left: 50px;
+    margin-top: -20px;
+    display: flex;
+    /* position: absolute; */
+}
+
+h2{
+    font-size: 30px;
+    display: flex;
+    margin-left: 60px;
+    position: relative;
+    margin-top: -140px;
+    color: white;
+}
+
+h4{
+    position: fixed;
+    margin-top: 120px;
+    font-size: 30px;
+    margin-left: 80px;
+    color: white;
+}
+
+h3{
+    display: flex;
+    position: fixed;
+    padding-top: 152px;
+    font-size: 13px;
+    color: white;
+}
+
+#busqueda{
+   display: inline-block;
+   margin-right: 400px;
+   /* position: relative; */
+   width: 20rem;
+   justify-content: center;
+   border-radius: 5px;
+   padding: 4px;
+   /* display: none; */
+   
+   
+}
+
+.fa-magnifying-glass{
+    display: inline-block;
+    margin-left: -50px;
+    padding: 7px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.filtro{
+    display: none;
+}
+
+/* #icnb{
+    padding: 10px;
+    cursor: pointer;
+} */
